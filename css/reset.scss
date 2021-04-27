@@ -1,0 +1,87 @@
+@import 'variables';
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $title;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    span {
+        font-weight: 100;
+    }    
+}
+
+h1{
+    font-size: $s-xx-giant;
+}
+h2 {
+    font-size: $s-giant;
+}
+h3 {
+    font-size: $s-x-large;
+}
+h4 {
+    font-size: $s-large;
+}
+h5 {
+    font-size: $s-medium;
+}
+h6 {
+    font-size: $s-s-medium;
+}
+
+
+p, strong, em  {
+    font-size: $s-medium;
+}
+
+
+p{
+    &:first-child {
+        margin-top:$s-large;
+    }
+    font-family: $text;
+    font-size: $s-medium;
+    line-height: $s-large;
+    margin-top:$s-large;
+}
+
+small {
+    font-family: $text;
+    font-size:$s-s-medium;
+}
+
+a {
+    font-family: $text;
+    font-size: $s-medium;
+    line-height: $s-large;
+    color: $green;
+    &:hover {
+        text-decoration-style: wavy;
+    }
+}
+
+button {
+    font-family: $title;
+    padding:$s-x-small $s-x-giant;
+    font-size:$s-medium;
+    cursor: pointer;
+    display: block;
+    margin: $s-medium 0;
+    background-color: $green;
+    border-radius:$s-xx-small;
+    border:1px solid darken($green , 10%);
+    font-weight: 600;
+    color: $black-light;
+    transition: background-color 400ms ease-out; 
+    letter-spacing: 1px;
+    &:hover {
+        background: darken(#55AC47, 10%);       
+        transition: $fast-animation; 
+    }
+}

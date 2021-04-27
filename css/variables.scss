@@ -1,0 +1,40 @@
+// size
+$s-4:4px;
+$s-8:8px;
+$s-14:14px;
+$s-16:16px;
+$s-24:24px;
+$s-32:32px;
+$s-40:40px;
+$s-48:48px;
+$s-56:56px;
+$s-64:64px;
+
+
+$s-xx-small:4px;
+$s-x-small:8px;
+$s-s-medium:14px;
+$s-medium:16px;
+$s-large:24px;
+$s-x-large:32px;
+$s-xx-large:40px;
+$s-giant:48px;
+$s-x-giant:56px;
+$s-xx-giant:64px;
+
+//colores
+$black:#222222;
+$black-light:#333333;
+$gray: #59595B;
+$white:#d5d5d5;
+$green:#55AC47;
+
+//gradients
+$green-gradient:linear-gradient(116deg, #55AC47 , #00A091);
+
+//animation
+$fast-animation:all 400ms ease-out;
+
+//font-family
+$title:'Inter', sans-serif;
+$text: 'Open Sans', sans-serif;
